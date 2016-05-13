@@ -1,9 +1,11 @@
 yaml_consulate
 ##############
 
-Pass a YAML file and root key and we will emit JSON in a schema that consulate may digest.
+This program basically does an ETL (export, transform, load) from YAML to JSON in a format that consulate can load.
 
-This is an example of the YAML to Consulate JSON schema conversion::
+Consulate is a tool for managing consul.
+
+For example::
  
  yaml_consulate example.yaml my_website
 
