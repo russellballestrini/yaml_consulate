@@ -19,4 +19,3 @@ def main():
 
     json_data = json.dumps(consulize(data), indent=2)
     print(json_data)
-    return json_data

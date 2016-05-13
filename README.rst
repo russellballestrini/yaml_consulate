@@ -21,3 +21,53 @@ download repo and run::
 verify install by running::
 
  yaml_consulate --help
+
+quick guide
+===========
+
+**example.yaml**::
+
+ domain: russell.ballestrini.net
+ port: 80
+ 
+ books:
+   - don't make me think
+   - the goal
+ 
+ this:
+   is:
+     deeply:
+       nested: amirite?
+
+
+And the conversion::
+
+ yaml_consulate example.yaml my_website
+
+Results in this json which consulate may ingest::
+ 
+ [
+   [
+     "my-website/port",
+     0,
+     80
+   ],
+   [
+     "my-website/this/is/deeply/nested",
+     0,
+     "amirite?"
+   ],
+   [
+     "my-website/domain",
+     0,
+     "russell.ballestrini.net"
+   ],
+   [
+     "my-website/books",
+     0,
+     [
+       "don't make me think",
+       "the goal"
+     ]
+   ]
+ ]

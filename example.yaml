@@ -1,2 +1,11 @@
 domain: russell.ballestrini.net
 port: 80
+
+books:
+  - don't make me think
+  - the goal
+
+this:
+  is:
+    deeply:
+      nested: amirite?
