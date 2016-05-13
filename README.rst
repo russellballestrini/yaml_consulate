@@ -14,6 +14,10 @@ You can pipe this into consulate kv restore like this::
 install
 ========
 
-::
+download repo and run::
+
  python develop setup.py
 
+verify install by running::
+
+ yaml_consulate --help
