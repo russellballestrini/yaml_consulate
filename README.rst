@@ -1,7 +1,7 @@
 yaml_consulate
 ##############
 
-Pass a YAML file and key root and we will emit JSON in a schema that consulate may digest.
+Pass a YAML file and root key and we will emit JSON in a schema that consulate may digest.
 
 This is an example of the YAML to Consulate JSON schema conversion::
  
